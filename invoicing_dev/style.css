@@ -1,0 +1,106 @@
+body
+{
+	background: white;
+	
+	font-size: 14px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	
+}
+
+body a
+{
+	color: #000000;
+	font-family:helvetica;
+	text-decoration: none;
+}
+
+.listmenu li
+{
+	background: transparent !important;
+}
+
+.roundbox
+{
+	margin: 13px 5px 13px 5px;
+	background: rgba(230, 240, 255, 0.75);
+	border-radius: 10px;
+	border: 1px solid rgb(100,100,100);
+	padding: 1px;
+	
+}
+
+label
+{
+	font-size: 10pt;
+}
+
+ul
+{
+	padding: 0px;
+	margin: 0px;
+	border-style: none;
+	list-style-type: none;
+	overflow: auto;
+}
+
+ul li
+{
+	padding: 3px 3px 3px 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: default;
+	position: relative;
+}
+
+ul li:nth-child(odd)
+{
+	background: rgb(205,220,235);
+}
+
+ul li:nth-child(even)
+{
+	background: rgb(190,210,225);
+}
+
+ul li:hover
+{
+	background: rgb(255,255,200);
+}
+
+ul li.selected
+{
+	background: rgb(255,255,150);
+}
+
+
+
+textarea
+{
+	background: transparent;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	border-style: none;
+}
+
+.round
+{
+	border-radius: 10px;
+}
+
+
+.inblock
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hoverbutton
+{
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.hoverbutton:hover
+{
+	border: 1px solid black;
+}

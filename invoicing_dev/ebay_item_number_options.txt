@@ -1,0 +1,13 @@
+# This is the list of values to show in the drop-down box for the "item #" field
+# when creating new items. Linebreak separated, blank lines ignored. 
+# Use "#" for comments.
+
+bonus
+payment
+credit
+charge
+returns
+free
+book
+fee
+other

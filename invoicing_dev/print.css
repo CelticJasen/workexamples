@@ -1,0 +1,42 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.pbreak
+{
+	page-break-after: always;
+}
+
+.pbreakb
+{
+	page-break-before: always;
+}
+
+.noprint
+{
+	display: none !important;
+}
+
+.root
+{
+	page-break-after: always;
+}
+
+.nopbreak
+{
+	page-break-after: auto;
+}
+
+.footer
+{
+	position: fixed;
+	bottom: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}

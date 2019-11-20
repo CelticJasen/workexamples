@@ -1,0 +1,104 @@
+div.aTabs
+{
+	background: transparent;
+	border-style: none;
+	/*font-size: inherit;
+	font-family: inherit;*/
+}
+
+div.aTabs .ui-widget
+{
+	font-size: 13px;
+	font-family: Verdana;
+}
+
+div.aTabs input,
+div.aTabs button
+{
+	font-size: 12px;
+	letter-spacing: default;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+div.aTabs .ui-tabs-nav
+{
+	padding: 0 10px 0 10px;
+	font-size: 9pt;
+}
+
+div.aTabs .ui-tabs-nav li
+{
+	background: rgba(220, 220, 220, 0.7) !important;
+}
+
+div.aTabs .ui-tabs-nav li a
+{
+	padding: 1px 3px 1px 3px !important;
+}
+
+div.aTabs .ui-tabs-nav li a small
+{
+	display: block;
+	font-size: 7pt;
+}
+
+div.aTabs .ui-tabs-nav li.ui-state-hover
+{
+	background: rgba(255, 255, 220, 0.7) !important;
+}
+
+div.aTabs .ui-tabs-nav li.ui-state-active
+{
+	background: rgba(255, 255, 255, 0.7) !important;
+}
+
+div.aTabs .ui-tabs-nav li.ui-tabs-active a, 
+div.aTabs .ui-tabs-nav li.ui-state-disabled a, 
+div.aTabs .ui-tabs-nav li.ui-tabs-loading a {
+    cursor: default;
+}
+
+
+div.aTabs .ui-tabs-nav li.ui-state-default a {
+	font-weight: normal;
+	color: #888;
+}
+
+div.aTabs .ui-tabs-nav li.ui-state-default {
+	border: 1px solid #888;
+}
+
+div.aTabs .ui-tabs-nav li.ui-tabs-active a {
+	color: #333;
+}
+
+div.aTabs .ui-tabs-nav li.ui-tabs-active {
+	border-top: 1px solid #333;
+	border-right: 1px solid #333;
+	border-left: 1px solid #333;
+	border-bottom: none;
+}
+
+div.aTabs div.ui-tabs-panel
+{
+	padding: 0;
+	background: transparent;
+}
+
+div.aTabs .ui-widget-header
+{
+	background: transparent;
+	border-style: none;
+}
+
+div.aTabs .ui-tabs-nav li a
+{
+	padding: 3px;
+}
+
+div.aTabs a,
+div.aTabs a:link,
+div.aTabs a:visited
+{
+	color: rgb(50,50,50);
+}

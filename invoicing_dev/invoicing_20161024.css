@@ -1,0 +1,704 @@
+body
+{
+	margin-bottom: 32px;
+}
+
+#root
+{
+	margin-bottom: 16px;
+}
+
+input:focus, textarea:focus, select:focus, div.card:focus, div.items.tr:focus, li.invoice:focus {
+	outline: 1px dotted #222;
+}
+
+.ui-dialog
+{
+	z-index: 101;
+}
+
+#admin_settings_box table th
+{
+	text-align: right;
+	padding-right: 10px;
+}
+
+#admin_settings_box td
+{
+	padding: 2px;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: black;
+}
+
+#package_contents li small
+{
+	display: inline-block; overflow: hidden; text-overflow: ellipsis; width: 650px;
+}
+
+#main_menu
+{
+	display: inline-block;
+	position: absolute;
+	left: 0px;
+	z-index: 100;
+	border: 1px solid gray;
+	background: rgba(255, 255, 255, 1);
+	-moz-user-select: none;
+}
+
+#main_menu li
+{
+	background: rgba(255, 255, 255, 1);
+	font-size: 10pt;
+	padding: 5px 10px 5px 10px;
+	-moz-user-select: none;
+}
+
+#main_menu li *
+{
+	vertical-align: middle;
+	-moz-user-select: none;
+}
+
+ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+	overflow: auto;
+}
+
+ul li
+{
+	cursor: default;
+	padding: 3px 3px 3px 5px;
+	position: relative;
+	white-space: nowrap;
+}		
+
+#tabs li
+{
+	display: inline-block;
+	padding: 2px 5px 2px 5px;
+	font-variant: small-caps;
+}
+
+#tabs li.focused
+{
+	border-radius: 8px 8px 0px 0px;
+}
+
+span.twitter-typeahead
+{
+	vertical-align: top;
+}
+
+.items span
+{
+	display: inline-block;
+}
+
+.items .date
+{
+	font-size: 9pt;
+	padding-right: 10px;
+}
+
+.items .item_number
+{
+	font-size: 9pt;
+	padding-right: 10px;
+}
+
+.items .shipping_notes
+{
+	font-size: 9pt;
+	width: 408px;
+}
+
+.items .details
+{
+	font-size: 8pt;
+	margin-left: 10px;
+	display: block;
+}
+
+.items .ebay_title
+{
+	font-size: 9pt;
+	width: 455px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.items .combine_type
+{
+	width: 100px;
+	margin-right: 10px;
+	background: transparent;
+	border-style: none;
+	-moz-appearance: none;
+}
+
+.items.history .ebay_title
+{
+	width: 600px;
+}
+
+.items .price
+{
+	width: 100px;
+	text-align: right;
+}
+
+.items caption
+{
+	
+}
+
+li.block
+{
+	white-space: normal;
+}
+
+li.block h4
+{
+	
+}
+
+li.block div.notes
+{
+	
+}
+
+div.stats, table.stats
+{
+	font-size: 9pt;
+	display: inline-block;
+	vertical-align: top;
+}
+
+table.stats td
+{
+	padding-right: 7px;
+}
+
+div.newinvoice * 
+{
+	font-size: 11pt;
+}
+
+div.newinvoice input, div.newinvoice textarea, div.newinvoice select
+{
+	background: rgba(255,255,255,0.9)
+}
+
+div.newinvoice
+{
+	padding: 20px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	min-height: 50px;
+}
+
+div.newinvoice div
+{
+	margin-bottom: 10px;
+	width: 300px;
+}
+
+div.newinvoice span
+{
+	margin-right: 15px;
+}
+
+div.newinvoice div.extra_info
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	white-space: pre-wrap;
+}
+
+div.newinvoice .date
+{
+	position: absolute;
+	right: 25px;
+	width: 145px;
+}
+
+a:link, a:visited
+{
+	color: black;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+table.billing_address input
+{
+	width: 160px;
+}
+
+table.paypal
+{
+	font-size: 9pt;
+}
+
+a.readmore-js-toggle
+{
+	text-align: center;
+}
+
+li.block h5
+{
+	margin: 5px 0 5px 0;
+}
+
+li.block p.block_note
+{
+	margin: 8px 0 8px 0;
+	font-size: 10pt;
+}
+
+ul.listmenu li
+{
+	background: transparent !important
+}
+
+table.items tr.deleted td *
+{
+	text-decoration: line-through;
+	color: gray;
+}
+
+table.items tr img
+{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+div.card.deleted * 
+{
+	text-decoration: line-through;
+	color: #aaa;
+}
+
+div.card.deleted
+{
+	background-color: gray !important;
+}
+
+.invoice.deleted *
+{
+	text-decoration: line-through;
+	color: #888;
+}
+
+div.alert
+{
+	position: relative;
+	height: 14px;
+	background: #eeee77;
+	font-size: 8pt;
+	padding: 0px;
+	margin-bottom: 1px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+
+
+.ui-menu-item
+{
+	font-size: 9pt;
+}
+
+input.bill_to_address
+{
+	width: 100%;
+}
+
+
+
+
+
+input.tempreadonly, textarea.tempreadonly, select.tempreadonly
+{
+	background-color: rgb(230,230,230) !important;
+}
+
+::-moz-placeholder
+{
+	color: #888;
+}
+
+.ui-tooltip
+{
+	background: lightyellow;
+}
+
+ul.invoices
+{
+	list-style-type: none;
+	overflow: visible;
+	background: rgba(255, 255, 255, 0.7);
+	font-size: 9pt;
+}
+
+ul.ship_to_address, 
+ul.bill_to_address
+{
+	list-style-type: none;
+	margin-bottom: 5px;
+	margin-top: 2px; 
+}
+
+ul.ship_to_address li:nth-child(2n+1)
+{
+	background: transparent;
+}
+
+ul.ship_to_address li,
+ul.bill_to_address li
+{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 8pt;
+	/*width: 72px; */ /*Removed because Phillip complained it made things look weird for long address lists. 20160712 */
+	vertical-align: top;
+	text-align: center;
+	-moz-user-select: none;
+	border: 1px solid transparent;
+}
+
+ul.ship_to_address li:hover, 
+ul.bill_to_address li:hover
+{
+	background: rgb(255,255,200);
+	border: 1px dashed gray;
+}
+
+ul.ship_to_address li small, 
+ul.bill_to_address li small
+{
+	display: block;
+	font-size: 7pt;
+}
+
+ul.ship_to_address li.selected, 
+ul.bill_to_address li.selected
+{
+	border: 1px solid gray;
+}
+
+div.invoice
+{
+	font-size: 9pt;
+	padding: 7px;
+}
+
+div.invoice li *
+{
+	display: inline-block;
+}
+
+div.invoice li :first-child
+{
+	width: 75px;
+}
+
+ul.invoices li
+{
+	background: transparent;
+	border-bottom: 1px solid gray;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+ul.invoices li:last-of-type
+{
+	border-bottom: none;
+}
+
+/*ul.invoices li:nth-child(odd)
+{
+	background: rgba(255, 255, 255, 0.6);
+}*/
+
+ul.invoices li div span, div.invoice div span
+{
+	display: inline-block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 110px;
+}
+
+div.invoice div span
+{
+	width: 120px;
+}
+
+div.history
+{
+	border-bottom: 1px solid #f8f8f8;
+}
+
+div.history ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background: rgba(255, 255, 255, 0.7);
+	text-align: right;
+}
+
+div.history ul li
+{
+	font-size: 7pt;
+	margin-right: 8px;
+	display: inline-block;
+	background: transparent !important;
+	padding: 0;
+}
+
+div.consignor
+{
+	vertical-align: top;
+}
+
+div.consignor caption
+{
+	margin: 10px;
+	letter-spacing: 1px;
+}
+
+div.consignor input, div.consignor select, div.consignor textarea
+{
+	width: 300px;
+}
+
+div.consignor textarea
+{
+	height: 50px;
+	border: 1px solid #7f9db9;
+	background: white;
+}
+
+li.invoice.editing
+{
+	border: 2px dashed gray;
+}
+
+div.editinvoice
+{
+	border: 2px dashed gray;
+}
+
+div.orders
+{
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+div.orders table
+{
+	background: rgba(255, 255, 255, 0.3);
+	margin: 5px;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+div.orders table tr td
+{
+	font-size: 9pt;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+div.orders table pre
+{
+	font-family: inherit;
+	margin-top: 0;
+}
+
+div.orders th
+{
+	font-size: 9pt;
+	text-align: left;
+}
+
+#unprinted_invoices
+{
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+}
+
+div.unprinted_invoices
+{
+	display: inline-block;
+	margin: 10px;
+	vertical-align: top;
+}
+
+div.unprinted_invoices div.heading
+{
+	padding: 10px; 
+	text-align: center;
+	font-weight: bold;
+	-moz-user-select: none;
+}
+
+div.unprinted_invoices table
+{
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	font-size: 9pt;
+}
+
+div.unprinted_invoices table td
+{
+	padding: 0 5px 0 5px;
+}
+
+div.unprinted_invoices table tr:nth-child(odd)
+{
+	background: rgba(255, 255, 255, 0.7);
+}
+
+div.unprinted_invoices table tr:hover
+{
+	background: rgb(255,255,200);
+}
+
+div.unprinted_invoices table span
+{
+	display: inline-block;
+	margin: 0 5px 0 5px;
+}
+
+table.other_addresses td
+{
+	font-size: 8pt;
+	white-space: pre-wrap;
+}
+
+div.autoships
+{
+	width: 1000px; 
+	margin-right: auto; margin-left: auto; 
+	margin-top: 15px;
+	font-size: 9pt;
+	background: rgba(255,255,255,0.3); 
+	border-radius: 5px;
+}
+
+div.autoships div
+{
+	display: inline-block;
+	margin: 2px 5px 2px 5px;
+	background: rgba(255,255,255,0.5);
+	padding: 2px;
+}
+
+div.autoships div:hover
+{
+	background: rgba(255,255, 0, 0.3)
+}
+
+div.autoships h4
+{
+	
+}
+
+li.subinvoice
+{
+	padding-left: 60px;
+	font-size: 7pt;
+}
+
+li.subinvoice a
+{
+	display: inline-block; 
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+li.subinvoice big
+{
+	font-size: 15pt;
+}
+
+table.credits tr:nth-child(odd)
+{
+	
+}
+
+table.credits tr:nth-child(even)
+{
+	background: rgba(255,255,255,0.5);
+}
+
+table.credits td 
+{
+	padding: 5px;
+}
+
+
+caption
+{
+	font-size: 8pt;
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+.history_bar
+{
+	width: 100%;
+	font-size: 7.5pt; 
+	background: rgba(255,255,255,0.8); 
+	border-top: 1px solid #cccccc;
+	padding: 1px; 
+	position: fixed;
+	color: #555;
+	height: 12px; 
+	overflow: hidden;
+	z-index: 100;
+}
+
+#history_bar
+{
+	bottom: 0px;
+}
+
+#history_bar2
+{
+	bottom: 15px;
+}
+
+.history_bar span.link
+{
+	margin: 1px 10px 1px 10px;
+}
+
+.history_bar span.link:hover
+{
+	cursor: pointer;
+	background-color: rgb(255, 255, 200);
+	
+}

@@ -1,0 +1,119 @@
+div.card_container
+{
+	margin-bottom: 5px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+div.card {
+	background-image: url(graphics/shine.png);
+	background-repeat: no-repeat;
+	background-position: -20px -20px;
+	border-radius: 8px 8px;
+	height: 60px;
+	width: 150px;
+	display: inline-block;
+	color: #f0f0f0;
+	font-size: 9pt;
+	padding: 8px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+div.card_container div.buttons
+{
+	display: none;
+	position: absolute; 
+	left: 10px; 
+	top: 10px;
+	z-index: 1;
+}
+
+div.card_container:hover div.buttons
+{
+	display: inline-block;
+}
+
+div.card div.number {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	font-size: 13px;
+	/*margin-left: 125px;*/
+	width: 145px;
+	text-align: right;
+}
+
+div.card .redact {
+	color: transparent;
+	background: black;
+}
+
+div.card:hover .redact {
+	color: inherit;
+	background: inherit;
+}
+
+div.card div.expiration {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+}
+
+div.card div.name {
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	z-index: 99;
+	white-space: nowrap;
+	width: 160px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+div.card input {
+	background: rgba(255,255,255,0.9);
+	border: 1px solid gray;
+}
+
+div.card input.number {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	font-size: 10pt;
+	width: 150px;
+}
+
+div.card input.expiration {
+	position: absolute;
+	top: 28px;
+	left: 80px;
+	width: 50px;
+	font-size: 10pt;
+}
+
+div.card input.name {
+	position: absolute;
+	bottom: 5px;
+	left: 10px;
+	z-index: 100;
+	width: 100px;
+	font-size: 10pt;
+}
+
+
+
+div.card_container div.date
+{
+	font-size: 10pt;
+	margin-left: 10px;
+}
+
+div.card_container div.preference
+{
+	font-size: 10pt;
+	margin-left: 10px;
+}
+
+

@@ -1,0 +1,128 @@
+body
+{
+	/*background: url('graphics/Bull_Shoals_Dam_faded.jpg') #b4bdb5;*/
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.roundbox
+{
+	margin: 13px 5px 13px 5px;
+	border-radius: 10px;
+	border: 1px solid #888;
+	
+}
+
+.roundbox, 
+ul:not(.ui-autocomplete):not(#tabs) li:nth-child(2n+1),
+#tabbar, 
+#lognavigation,
+table.items
+{
+	background: rgba(255,255,255,0.7)
+}
+
+table.items td
+{
+	padding: 3px;
+}
+
+body
+{
+	background: #b6b9d2;
+	background-image: url('graphics/bg.png');
+}
+
+#tabs li.focused
+{
+	background: rgba(0, 0, 128, 0.15)
+}
+
+table.items td, table.items td *
+{
+	color: gray;
+}
+
+li.hidden
+{
+	display: none;
+}
+
+li.selected
+{
+	background: #fff7e1 !important;
+}
+
+table.items tr.selected td
+{
+	background: #fff7e1;
+}
+
+table.items tr.selected td, table.items tr.selected td *
+{
+	color: black;
+}
+
+table.items, table.paypal
+{
+	border-spacing: 1px;
+	border-collapse: separate;
+}
+
+.margins
+{
+	margin: 13px 5px 13px 5px;
+}
+
+h2
+{
+	margin: 0px 5px -8px 5px;
+	text-align: center;
+	font-size: 13pt;
+}
+
+h3
+{
+	font-size: 12pt;
+	text-align: center;
+	margin: 0px;
+}
+
+label
+{
+	font-size: 8pt;
+}
+
+textarea
+{
+	background: transparent;
+	font-size: 14px;
+	border-style: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.round
+{
+	border-radius: 10px;
+}
+
+
+.inblock
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hoverbutton
+{
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+
+.hoverbutton:hover
+{
+	border: 1px solid black;
+}
