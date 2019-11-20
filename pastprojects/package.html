@@ -1,0 +1,30 @@
+<div id='package' class='return pane' onload='var root = $(this);'>
+<h3>These are typically entered by Clark.</h3>
+<table style='table-layout: fixed; width: 600px; border-collapse: collapse'>
+	<tbody>
+		<tr>
+			<td>Type of package</td>
+			<td>
+				<input style='width: 100%' name='package_type' placeholder='' value="{{package_type}}" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Location of returned item</td>
+			<td>
+				<input style='width: 100%' name='package_location' placeholder='' value="{{package_location}}" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Return postage cost</td>
+			<td>
+				<input style='width: 100%' name='package_postage_cost' placeholder='' value="{{package_postage_cost}}" />
+			</td>
+		</tr>
+	</tbody>
+</table>
+<script>
+$("input[checked=checked]", root).prop("checked", true)
+</script>
+</div>

@@ -1,0 +1,49 @@
+<div id='refund' class='return pane' onload='var root = $(this);'>
+<h3>These are typically entered by Angie.</h3>
+<table style='table-layout: fixed; width: 600px; border-collapse: collapse'>
+	<tbody>
+		<tr>
+			<td>Date credited/refunded</td>
+			<td>
+				<input name='refund_date' value="{{refund_date}}" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>What did you do with the item after credit/refunded?</td>
+			<td>
+				<!--<select name='after_refund_action' onchange='if(this.value == "other"){ $("#after_refund_action_other").prop("disabled", false) }else{ $("#after_refund_action_other").val("").prop("disabled", true) }'>
+					<option value='phil_relist'>Gave it to Phaaal for relist</option>
+					<option value='cheap_stuff_room'>Put it in the "cheap stuff room"</option>
+					<option value='clark_return'>Gave it to Clark to return to consignor</option>
+					<option value='other' >Other (explain)</option>
+					<option value='unknown' checked='checked'>Unknown</option>
+				</select>
+				
+				<input disabled='disabled' id='after_refund_action_other' name='after_refund_action_other' placeholder='other' />-->
+				<input style='width: 100%' name='after_refund_action' value="{{after_refund_action}}" />
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Did you get the money back from the consignor on:</td>
+			<td>
+				<!--<select name='consignor_money' onchange='if(this.value == "other"){ $("#consignor_money_other").prop("disabled", false) }else{ $("consignor_money_other").val("").prop("disabled", true) }'>
+					<option value='spreadsheet'>Their spreadsheet</option>
+					<option value='account'>Their invoicing account</option>
+					<option value='pay'>Had them pay it to us</option>
+					<option value='other'>Other (explain)</option>
+					<option value='unknown' checked='checked'>Unknown</option>
+				</select>
+				
+				<input disabled='disabled' id='consignor_money_other' name='consignor_money_other' placeholder='other' />
+				-->
+				<input style='width: 100%' name='consignor_money' value="{{consignor_money}}" />
+			</td>
+		</tr>
+	</tbody>
+</table>
+<script>
+$("input[checked=checked]", root).prop("checked", true)
+</script>
+</div>
